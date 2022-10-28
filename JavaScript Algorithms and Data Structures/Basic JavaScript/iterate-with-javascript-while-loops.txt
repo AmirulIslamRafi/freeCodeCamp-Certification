@@ -1,0 +1,10 @@
+// Setup
+const myArray = [];
+
+// Only change code below this line
+let x = 0;
+while (x <= 5) {
+  myArray.unshift(x);
+  x++;
+}
+console.log(myArray);

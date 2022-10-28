@@ -1,0 +1,34 @@
+function sum(arr, n) {
+  // Only change code below this line
+/*
+Waiting: sum([1], 0) should equal 0.
+Waiting: sum([2, 3, 4], 1) should equal 2.
+Waiting: sum([2, 3, 4, 5], 3) should equal 9.
+Waiting: Your code should not rely on any kind of loops (for or while or higher order functions such as forEach, map, filter, or reduce.).
+Waiting: You should use recursion to solve this problem. 
+*/
+if(n<=0){
+  return 0;
+}else{
+  return sum(arr, n-1) + arr[n-1];
+}
+
+  // Only change code above this line
+}
+
+// function rafi(message, num){
+//   if( typeof message ==='undefined'){
+//     return console.log("You Didn't Write anything!");
+//   }
+//   else if(num<=0 ){
+//    return null; 
+//   }
+//   else if( typeof num === 'undefined'){
+//    return rafi(message, num=1); 
+//   }
+//   else{
+//     console.log(message);
+//     return rafi(message, num-1);
+//   }
+// }
+// rafi('hello Rafi',2);

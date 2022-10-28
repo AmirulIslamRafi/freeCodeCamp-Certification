@@ -1,0 +1,29 @@
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+    // sum : function (a=0, b=0){
+    //   return a+b;
+    // }
+  },
+  {
+    "artist": "Amirul Islam",
+    "title": "Skating in Boston",
+    "release_year": 2030,
+    "formats": [
+      "Video",
+      "Audio",
+      "lyrics"
+    ],
+    "gold": true
+  }
+];
+// Calling the sum function from the Object inside the Array.
+// console.log(myMusic[0].sum(2,25));

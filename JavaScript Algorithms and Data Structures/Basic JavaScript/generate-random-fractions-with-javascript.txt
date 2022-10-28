@@ -1,0 +1,13 @@
+function randomFraction() {
+
+  // Only change code below this line
+// This will return 0-10 random number
+// return Math.floor(Math.random()*10);
+
+return Math.random();
+  
+
+  // Only change code above this line
+}
+
+console.log(randomFraction());

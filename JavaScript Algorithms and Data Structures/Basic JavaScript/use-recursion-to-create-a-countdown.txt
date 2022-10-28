@@ -1,0 +1,19 @@
+// Only change code below this line
+
+// Waiting: countdown(-1) should return an empty array.
+// Waiting: countdown(10) should return [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+// Waiting: countdown(5) should return [5, 4, 3, 2, 1]
+// Waiting: Your code should not rely on any kind of loops (for, while or higher order functions such as forEach, map, filter, and reduce).
+// Waiting: You should use recursion to solve this problem.
+// Waiting: Global variables should not be used to cache the array.
+
+function countdown(n){
+  if(n<1){
+    return [];
+  }else{
+  const arr = countdown(n-1);
+  arr.unshift(n);
+  return arr;}
+}
+console.log(countdown(6));
+// Only change code above this line

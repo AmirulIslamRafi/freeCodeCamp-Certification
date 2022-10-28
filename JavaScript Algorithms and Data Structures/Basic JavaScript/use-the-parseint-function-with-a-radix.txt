@@ -1,0 +1,11 @@
+// convertToInteger should use the parseInt() function
+// Waiting: convertToInteger("10011") should return a number
+// Waiting: convertToInteger("10011") should return 19
+// Waiting: convertToInteger("111001") should return 57
+// Waiting: convertToInteger("JamesBond") should return NaN
+
+function convertToInteger(str) {
+return parseInt(str, 2);
+}
+
+console.log(convertToInteger("111001"));

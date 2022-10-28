@@ -1,0 +1,9 @@
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog.bark = 'woof';
+// regular expretions /g and new line \n.
+console.log(JSON.stringify(myDog).replace(/"/g, " ").replace(/,/g, `,\n`));

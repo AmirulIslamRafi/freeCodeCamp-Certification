@@ -1,0 +1,17 @@
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  let result = "";
+  if(!obj.hasOwnProperty(checkProp)){
+    result = "Not Found";
+  }else{
+    result = obj[checkProp];
+  }
+  return result;
+  // Only change code above this line
+}
+console.log(checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift"));
+console.log(checkObj({gift: 'pony', pet:'kitten', bed: 'sleigh'},'pet'));
+console.log(checkObj({gift: 'pony', pet:'kitten', bed: 'sleigh'},'house'));
+console.log(checkObj({city:"Seattle"}, 'city'));
+console.log(checkObj({city:"Seattle"}, 'district'));
+console.log(checkObj({pet:'kitten', bed: 'sleigh'}, 'gift'));

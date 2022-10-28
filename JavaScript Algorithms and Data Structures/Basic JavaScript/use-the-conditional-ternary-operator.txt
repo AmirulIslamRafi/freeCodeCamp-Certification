@@ -1,0 +1,13 @@
+// checkEqual should use the conditional operator
+// Waiting: checkEqual(1, 2) should return the string Not Equal
+// Waiting: checkEqual(1, 1) should return the string Equal
+// Waiting: checkEqual(1, -1) should return the string Not Equal
+
+
+function checkEqual(a, b) {
+return a == b ? 'Equal' : 'Not Equal'
+}
+
+console.log(checkEqual(1, 2));
+console.log(checkEqual(2, 2));
+console.log(checkEqual(-1, -1));
