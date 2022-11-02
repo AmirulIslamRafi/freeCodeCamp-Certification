@@ -1,0 +1,20 @@
+/*Passed: You should not replace const keyword.
+Passed: s should be a constant variable (by using const).
+Passed: You should not change the original array declaration.
+Passed: s should be equal to [2, 5, 7].*/ 
+
+const s = [5, 7, 2];  //Use of const
+function  editInPlace() {
+  // Only change code below this line
+
+  const  t = [2, 5, 7]; //this will TypeError: "s" is read only
+// s[2]=78; //it is posible const will not effect this;
+for(let i = 0; i<s.length;i++){
+  s[i]=t[i];
+}
+console.log(s);
+  // Only change code above this line
+}
+editInPlace();
+// sdff= function (){console.log("rafi");}
+// sdff();

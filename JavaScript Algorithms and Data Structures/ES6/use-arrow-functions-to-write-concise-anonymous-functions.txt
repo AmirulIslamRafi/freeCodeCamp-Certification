@@ -1,0 +1,11 @@
+/*Waiting: You should replace the var keyword.
+Waiting: magic should be a constant variable (by using const).
+Waiting: magic should be a function.
+Waiting: magic() should return the correct date.
+Waiting: The function keyword should not be used.*/ 
+
+// var test = function() {
+//   return new Date();
+// };
+const magic = ()=> new Date();
+console.log(magic());
