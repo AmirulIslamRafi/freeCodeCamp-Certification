@@ -1,0 +1,17 @@
+// const sum = (x, y, z) => {
+//   const args = [x, y, z];
+//   return args.reduce((a, b) => a + a, 1);
+// }
+
+
+
+
+const sum = (...args) => {
+  return args.reduce((a,b)=>a+b,0);
+  // return `The sum of ${args.toString().replace(/,/g, " + ")} is = ${args.reduce((a, b) => a + b, 0)} .`;
+}
+console.log(sum(0, 1, 2));
+// console.log(howMany("string", null, [1, 2, 3], { }));
+
+console.log(sum())
+console.log(sum(1,2,3,4))
