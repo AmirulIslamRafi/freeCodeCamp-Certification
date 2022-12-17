@@ -1,0 +1,22 @@
+/*
+You should remove the ES5 assignment syntax.
+Waiting: You should use destructuring to create the lowToday variable.
+Waiting: You should use destructuring to create the highToday variable.
+Waiting: lowToday should be equal to 64 and highToday should be equal to 77.
+*/ 
+
+
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 }
+};
+
+// Only change code below this line
+
+const {today:{low:lowToday,high:highToday}}=LOCAL_FORECAST;
+// const lowToday = LOCAL_FORECAST.today.low;
+// const highToday = LOCAL_FORECAST.today.high;
+console.log(lowToday);
+console.log(highToday);
+// Only change code above this line
