@@ -1,0 +1,16 @@
+/*
+Use Destructuring Assignment to Assign Variables from Arrays
+const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
+console.log(a, b, c);
+
+The console will display the values of a, b, and c as 1, 2, 5 
+Waiting: The value of a should be 6, after swapping.
+Waiting: The value of b should be 8, after swapping.
+Waiting: You should use array destructuring to swap a and b.
+*/
+
+let a = 8, b = 6;
+// Only change code below this line
+
+ [b,a]=[a,b];
+console.log(a,b);
