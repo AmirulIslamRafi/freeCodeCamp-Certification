@@ -1,0 +1,20 @@
+/*
+Write Concise Object Literal Declarations Using Object Property Shorthand
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y
+});
+
+to 
+const getMousePosition = (x, y) => ({ x, y });
+
+*/
+const createPerson = (name, age, gender) => {
+  // Only change code below this line
+
+  return {
+ name,age,gender
+  };
+  // Only change code above this line
+};
+console.log(createPerson("zodiac Hasbro",56,"male"));
