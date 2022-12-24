@@ -1,0 +1,21 @@
+/*
+Use class Syntax to Define a Constructor Function
+*/
+
+// Only change code below this line
+class Vegetable{
+  constructor(rafi){
+    this.name = rafi;
+  }
+}
+class Rocket{
+  launch(rafi){
+    console.log(`Take of ${rafi}`)
+  }
+}
+const obj = new Rocket;
+obj.launch('Amirul islam Rafi')
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'

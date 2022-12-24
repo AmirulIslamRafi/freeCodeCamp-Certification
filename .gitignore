@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 *.png
 *.pdf
 *.jpg
 *.png
+=======
+*.pdf
+*.png
+*.png
+*.jpg
+*.jpeg
+>>>>>>> c2763b3c3fa0ca62a5ce992d1e4da75b8432f402
