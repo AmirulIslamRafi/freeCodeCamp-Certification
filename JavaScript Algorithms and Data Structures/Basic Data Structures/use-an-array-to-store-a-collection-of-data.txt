@@ -1,0 +1,2 @@
+let yourArray =['I had been learning JavaScript since 2018',420,true,'rafi',200,false]; // Change this line
+console.log(yourArray);

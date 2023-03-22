@@ -1,0 +1,24 @@
+function mixedNumbers(arr) {
+  // Only change code below this line
+// hard solution
+// const num = [1,2,3,4,5,6,7,8,9];
+// const romanNum = ['I','II','III','IV','V','VI','VII','VIII','IX','X'];
+// const strNum = ['one', 'two','three','four','five','six','seven','eight','nine'];
+// for(let i= 0; i<9; i+=3){
+//   arr[i]= romanNum[i];
+// }
+// for(let j=1; j<=9; j+=3){
+//   arr[j]= num[j];
+// }
+// for(let k=2; k<=9; k+=3){
+//   arr[k]=strNum[k];
+// }
+// Easy solution
+arr.unshift('I',2,'three');
+arr.push(7,'VIII',9)
+
+  // Only change code above this line
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
