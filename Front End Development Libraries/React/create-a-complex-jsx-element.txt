@@ -1,0 +1,10 @@
+const JSX = 
+<div>
+<h1>Stand Alone Application</h1>
+<p>With React we can create Client Side Rendering!</p>
+<ul>
+<li>Public</li>
+<li>Components</li>
+<li>src</li>
+</ul>
+</div>
