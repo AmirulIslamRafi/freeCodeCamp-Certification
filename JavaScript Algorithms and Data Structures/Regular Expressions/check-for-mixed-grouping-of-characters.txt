@@ -1,0 +1,9 @@
+let myString = "Eleanor Roosevelt"; //true
+ myString = "Franklin Rosevelt"; //false
+ myString = "Frank Roosevelt"; //false
+ myString = "FranklinRoosevelt"; //false
+ myString = "Franklin D. Roosevelt"; //true
+let myRegex = /(Franklin|Eleanor).(([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/; // Change this line
+let result = myRegex.test(myString); // Change this line
+console.log(result);
+// After passing the challenge experiment with myString and see how the grouping works

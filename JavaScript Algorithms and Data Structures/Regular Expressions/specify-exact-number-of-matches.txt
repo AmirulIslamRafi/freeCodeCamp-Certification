@@ -1,0 +1,8 @@
+let timStr = "Timmmmber";
+timStr = "Timber";
+timStr = "Timmber";
+timStr = "Timmmber";
+timStr = "Ti" + "m" .repeat(30) + "ber";
+let timRegex = /tim{4}ber/i; // Change this line
+let result = timRegex.test(timStr);
+console.log(timStr);

@@ -1,0 +1,7 @@
+let haStr = "Hazzzah"; // true
+haStr = "ha" + "z".repeat(30)+"ah"; //true
+haStr = "hazah"; //false
+haStr = "Hazzah";//false
+let haRegex = /haz{4,}ah/i; // Change this line
+let result = haRegex.test(haStr);
+console.log(result);

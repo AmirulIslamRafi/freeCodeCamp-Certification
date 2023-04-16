@@ -9,4 +9,8 @@
 *.png
 *.jpg
 *.jpeg
+<<<<<<< HEAD
 >>>>>>> c2763b3c3fa0ca62a5ce992d1e4da75b8432f402
+=======
+*.exe
+>>>>>>> b93e1bbd1837cb77890c15602afd130b4bb5b135

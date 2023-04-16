@@ -1,0 +1,3 @@
+let reCriminals = /C+/g; // Change this line
+let result = 'P2P1P5P4CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCP3'.match(reCriminals)
+console.log(result)

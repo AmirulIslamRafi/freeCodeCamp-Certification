@@ -1,0 +1,6 @@
+let favWord = "favorite";
+  favWord = "favorite";
+  favWord = "fav";
+let favRegex = /favou?rite/i; // Change this line
+let result = favRegex.test(favWord);
+console.log(result);

@@ -1,0 +1,11 @@
+let myArray = ["a", "b", "c", "d"];
+// Only change code below this line
+for(let i = 0; i < myArray.length; i++){
+  if(myArray[i]=='b'){
+    myArray[i]='Rafi';
+  }else{
+  console.log(myArray[i]);
+  }
+}
+// Only change code above this line
+console.log(myArray[1]);

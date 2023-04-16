@@ -1,0 +1,9 @@
+let ohStr = "Ohhh no"; // true
+ ohStr = "Ohh no"; //false
+ ohStr = "Ohhhh no"; //true
+ ohStr = "Ohhhhh no"; //true
+ ohStr = "Ohhhhhh no"; //true
+ ohStr = "Ohhhhhhh no"; //false
+let ohRegex = /oh{3,6}\sno/i; // Change this line
+let result = ohRegex.test(ohStr);
+console.log(result)
