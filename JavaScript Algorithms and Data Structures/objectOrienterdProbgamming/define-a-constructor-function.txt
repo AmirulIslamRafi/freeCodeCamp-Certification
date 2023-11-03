@@ -1,0 +1,12 @@
+function Dog (nam="", colo="", numLeg=0){
+  this.name = nam;
+  this.color = colo;
+  this.numLegs = numLeg
+}
+
+// or we can write this:
+// function Dog (){
+ //  this.name = "nam";
+ //  this.color = "colo";
+ //  this.numLegs = 4
+// }
